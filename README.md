@@ -1,7 +1,7 @@
-# 🍕 Ilumis Pizzaria - Versão 3  
+# 🍕 Ilumis Pizzaria - Versão 3 (Final)  
 
 ## 📖 Descrição  
-A terceira versão reflete a maturidade do projeto, com design e funcionalidades avançadas, oferecendo uma experiência de usuário mais completa.  
+A terceira versão reflete a maturidade do projeto, com design e funcionalidades avançadas, oferecendo uma experiência de usuário mais completa. Embora esta seja considerada a versão final do projeto inicial, melhorias e novas funcionalidades podem ser implementadas futuramente.  
 
 ## 🛠️ Características  
 - **Design:**  
@@ -22,4 +22,11 @@ A terceira versão reflete a maturidade do projeto, com design e funcionalidades
 ## 📚 Tecnologias Utilizadas  
 - HTML  
 - CSS (com Grid Layout)  
-- JavaScript avançado
+- JavaScript avançado  
+
+---
+
+## 🌐 Acessar Outras Versões  
+- [Versão 1](https://ilumispizzaria-v1.netlify.app/)  
+- [Versão 2](https://ilumispizzaria-v2.netlify.app/)  
+
