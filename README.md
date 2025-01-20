@@ -1,26 +1,21 @@
-# 🍕 Ilumis Pizzaria  
+# 🍕 Ilumis Pizzaria - Versão 2  
 
-Projeto desenvolvido em três versões, demonstrando evolução no design, funcionalidade e experiência do usuário.  
+## 📖 Descrição  
+A segunda versão introduziu melhorias no design e na estrutura do site, além de funcionalidades iniciais para uma experiência mais interativa.  
 
----
-
-## Versão 2 (v2)  
-### 📖 Descrição  
-A segunda versão trouxe melhorias significativas no design e nas funcionalidades, com foco em oferecer uma experiência mais organizada e intuitiva.
-
-### 🛠️ Características:  
+## 🛠️ Características  
 - **Design:**  
-  - Introdução de uma paleta de cores mais harmoniosa.  
-  - Responsividade básica implementada com **Flexbox**.  
-
+  - Uso de uma paleta de cores harmoniosa.  
+  - Primeiros passos na responsividade usando **Flexbox**.  
 - **Funcionalidades:**  
-  - Páginas:  
-    - **Sobre Nós:** Informações básicas da pizzaria.  
-    - **Cardápio:** Continha 3 itens básicos do menu.  
+  - Páginas adicionais:  
+    - **Sobre Nós:** Apresentação da pizzaria.  
+    - **Cardápio:** Exibindo 3 itens do menu.  
     - **Login e Cadastro:** Armazenando dados no **Local Storage**.  
-  - **Carrinho:** Primeira tentativa de implementar a funcionalidade (ainda básica).  
+  - **Carrinho:** Primeira implementação (ainda básica).  
 
-### 📚 Tecnologias:  
+## 📚 Tecnologias Utilizadas  
 - HTML  
 - CSS (com Flexbox)  
 - JavaScript básico  
+
