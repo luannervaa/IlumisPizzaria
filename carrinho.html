@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="carinho.css">
+    <title> IlumisPizzaria | Carrinho </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="back">
+            <a href="home.html">
+                <span><i class="ri-arrow-left-line"></i> Voltar </span>
+            </a>
+        </div>
+        <!-- Top -->
+        <h1>Carrinho de compras</h1>
+        <!-- Content -->
+        <div class="row">
+            <!-- Left -->
+            <div class="items">
+                <h2>Itens escolhidos</h2>
+                <hr>
+                <div id="showItems">
+                    <!-- ITEMS -->
+                </div>
+            </div>
+            <!-- Right -->
+            <div class="total">
+                <h2>Valor final</h2>
+                <hr>
+                <div class="division">
+                    <h3>Entrega</h3>
+                    <div class="option">
+                        <p>Retirada no local (+ R$ 0,00)</p>
+                        <button id="dontWantDelivery" class="active"></button>
+                    </div>
+                    <div class="option">
+                        <p>Delivery (+ R$ 3,00)</p>
+                        <button id="wantDelivery"></button>
+                    </div>
+                </div>
+                <div class="division">
+                    <h3>Cupom</h3>
+                    <div class="promotionCode">
+                        <input type="text" placeholder="Insira o código aqui" id="promotionCode">
+                        <button id="addPromotionCode">+</button>
+                    </div>
+                </div>
+                <div class="division">
+                    <h3>Informações</h3>
+                    <div class="item">
+                        <p>Valor do pedido:</p>
+                        <span id="showAllItemsValue">Carregando...</span>
+                    </div>
+                    <div class="item">
+                        <p>Taxa de entrega:</p>
+                        <span id="showDelivery">Carregando...</span>
+                    </div>
+                    <div class="item">
+                        <p>Desconto (cupom):</p>
+                        <span id="showDiscount">Carregando...</span>
+                    </div>
+                </div>
+                <hr>
+                    <div class="item">
+                        <h3>Total</h3>
+                        <span id="showTotal">Carregando...</span>
+                    </div>
+                <button id="generateOrder">Gerar Pedido</button>
+            </div>
+        </div>
+    </div>
+    <script src="./js/products.js"></script>
+    <script src="./js/carrinho.js"></script>
+</body>
+
+</html>

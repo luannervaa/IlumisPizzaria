@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif', 'Pangolin';
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    /* --bg-color: #222327; */
+    --bg-color: #000000;
+    --text-color: #fff;
+    /* --main-color: #29fd; */
+    --main-color: #FF7F31;
+    --big-font:4rem;
+    --h2-font:2rem;
+    --p-font:0.9rem;
+}
+
+body{
+    min-height: 100vh;
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.back{
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.back a{
+    font-size: 1.2rem;
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 100%;
+    margin-bottom: 25px;
+    color: var(--main-color);
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.items .total{
+    background: var(--main-color);
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 1.8rem;
+}
+
+.total .division h3{
+    margin-bottom: 5px;
+}
+
+.total .division .option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.total .division .option button{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    background: var(--main-color);
+}
+
+.total .division .option .active{
+    background: var(--text-color);
+}
+
+.total .division .promotionCode{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.total .division .promotionCode input{
+    width: 80%;
+    background: var(--text-color);
+    border: none;
+    border-radius: 5px 0 0 5px;
+    padding: 8px 15px;
+    font-size: 1rem;
+    color: 900;
+}
+
+.total .division .promotionCode button{
+    width: 20%;
+    border-radius: 0 5px 5px 0;
+    padding: 0px;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.total button{
+    background: var(--text-color);
+    width: 100%;
+    border: none;
+    padding: 12px;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.total button:hover{
+    transition: .5s ease;
+}
+
+.total .keeppBuying{
+    text-align: center;
+}
+
+.total .keeppBuying p{
+    margin: 10px 0 8px 0;
+}
+
+.total .keeppBuying a{
+    color: var(--main-color);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+}
+
+hr{
+    width: 100%;
+    height: 1px;
+    background: var(--text-color);
+    border: none;
+    margin: 20px 0;
+}
+

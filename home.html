@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="shortcut icon" href="img/imgHome.png" type="image/x-icon">
+    <title> Ilumis Pizzaria </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+    <!------ NavBar ------>
+    <header>
+        <a href="#" class="logo"><ion-icon name="pizza-outline"></ion-icon></i><span> IlumisPizzaria </span></a>
+
+        <ul class="navbar">
+            <li><a href="#home"> Home </a></li>
+            <li><a href="#sobre"> Sobre Nós</a></li>
+            <li><a href="#menu"> Cardápio </a></li>
+            <li><a href="#contato"> Contato </a></li>
+        </ul>
+
+        <div class="main_nav">
+            <a href="carrinho.html" class="carrinho"><i class="ri-shopping-cart-2-line"></i></a>
+            <div class="ri-menu-3-line" id="menu-icon"></div>
+        </div>
+    </header>
+
+
+    <!------ Home ------>
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1> Ilumis Pizzaria </h1>
+            <h2> As pizzas de <br> sabores e misterios </h2>
+        </div>
+
+        <div class="home-img">
+            <img src="img/imgHome.png" alt="Imagem de desenho animada de pizza">
+        </div>
+    </section>
+
+
+    <!------ Sobre ------>
+    <section class="sobre" id="sobre">
+        <div class="sobre-img">
+            <img src="img/imgSobre.png" alt="Imagem de desenho de pizza grande">
+        </div>
+
+        <div class="sobre-text">
+            <h1> Sobre Nós </h1>
+            <p> Nossa pizzaria foi inspirada na série de gravity falls, juntamos a nossa paixão por pizza e nosso amor pelo sobrenatural e decidimos finalmente abrir à Ilumi's Pizza no dia 03 de fevereiro de 2011 com essa pegada de caos e ordem, você vai provar uma pizza como nunca provou antes, entre contratos e apertos de mãos (vocês não precisam saber dos detalhes), conseguimos a receita mais saborosa de todas as dimensões, amada por mortais e imortais. <br> <br> Venha se aventurar e se arriscar pelos nossos sabores que transcende as dimensões. </p>
+        </div>
+    </section>
+
+
+    <!------ Cárdapio/Menu ------>
+    <section class="menu" id="menu">
+        <div class="heading">
+            <span> Cardápio </span>
+            <h2> Pizzas Salgadas e Doces </h2>
+        </div>
+
+        <div class="linksMenu">
+            <button href="#" class="linkMenu" id="showAll"> Tudo </button>
+            <button href="#" class="linkMenu" id="showSal"> Salgada </button>
+            <button href="#" class="linkMenu" id="showDoc"> Doce </button>
+            <button href="#" class="linkMenu" id="showBebi"> Bebidas </button>
+        </div>
+        <div class="cardsMenu" id="show">
+            <!-- Mostrar o Menu-->
+        </div>
+    </section>
+
+
+    <!------ Contato ------>
+    <section class="contato" id="contato">
+        <h2> Atendimento </h2>
+        <p> <i class="ri-map-pin-fill"></i> Rua das Redondas, n°245 <br> Lins (SP) </p>
+        <p> <i class="ri-phone-fill"></i> Telefone para contato e Whatsapp <br> (14) 99123-4567</p>
+    </section>
+
+
+    <!------ Footer ------>
+    <section id="contato">
+        <div class="footer">
+            <div class="main_footer">
+                <div class="col">
+                    <h4> Menu Linsk </h4>
+                    <ul>
+                        <li><a href="#home"> Home </a></li>
+                        <li><a href="#sobre"> Sobre Nós </a></li>
+                        <li><a href="#menu"> Cardápio </a></li>
+                        <li><a href="#contato"> Contato </a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h4> Outros Serviços </h4>
+                    <ul>
+                        <li><a href="#"> Web Design </a></li>
+                        <li><a href="#"> Web Development </a></li>
+                        <li><a href="#"> Marketing </a></li>
+                        <li><a href="#"> Design Gráfico </a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h4> Informações </h4>
+                    <ul>
+                        <li><a href="#"> Informações Delivery </a></li>
+                        <li><a href="#"> Privacidade Política </a></li>
+                        <li><a href="#"> Termos & Condições </a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h4> Redes Sociais </h4>
+                    <div class="social">
+                        <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                        <a href="#"><i class="ri-instagram-fill"></i></a>
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                        <a href="#"><i class="ri-youtube-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+    
+<!-- js link -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="./js/home.js"></script>
+<script src="./js/navbar.js"></script>
+<script src="./js/products.js"></script>
+<script src="./js/cart.js"></script>
+</body>
+</html>
